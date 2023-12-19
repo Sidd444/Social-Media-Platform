@@ -12,7 +12,6 @@ public class UserProfileService {
     private UserProfileRepository userProfileRepository;
 
     public UserProfile addUserProfile(UserProfile userProfile) {
-        // Add validation or other business logic as needed
         return userProfileRepository.save(userProfile);
     }
 }

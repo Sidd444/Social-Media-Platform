@@ -37,7 +37,5 @@ public class LikesController {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
-
-    // Add other endpoints as needed
 }
 

@@ -25,6 +25,4 @@ public class UserProfile {
     private String lastName;
 
     private String bio;
-
-    // Add other profile-related fields as needed
 }
